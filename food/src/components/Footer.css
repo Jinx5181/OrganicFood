@@ -1,0 +1,54 @@
+/* Example footer.css */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.payment-methods {
+    flex: 1;
+    text-align: left;
+}
+
+.payment-methods h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.payment-methods ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.payment-methods ul li img {
+    height: 30px; /* Adjust as needed */
+    width: auto;
+    vertical-align: middle;
+}
+
+.organic-description {
+    flex: 1;
+    text-align: left;
+}
+
+.organic-description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.organic-description p {
+    line-height: 1.6;
+}

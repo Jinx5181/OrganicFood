@@ -1,0 +1,34 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header .logo h1 {
+  margin: 0;
+}
+
+.header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin: 0;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .cart-icon {
+  cursor: pointer;
+}
